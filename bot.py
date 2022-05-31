@@ -52,7 +52,7 @@ async def HelpWatermark(bot, cmd):
 	await cmd.reply_text(
 		text=Config.USAGE_WATERMARK_ADDER,
 		parse_mode="Markdown",
-		reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("Developer", url="https://t.me/AbirHasan2005"), InlineKeyboardButton("Support Group", url="https://t.me/greymatters_bots_discussion")], [InlineKeyboardButton("Bots Channel", url="https://t.me/greymatter_bots")], [InlineKeyboardButton("Source Code", url="https://github.com/GreyMatter658/Watermark-Bot")]]),
+		reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("Developer", url="https://t.me/Irfan_Ali_786"), InlineKeyboardButton("Support Group", url="https://t.me/Irfan_Group")], [InlineKeyboardButton("Bots Channel", url="https://t.me/X_BOT_UPDATES")], [InlineKeyboardButton("Bot List", url="https://t.me/X_BOT_UPDATES")]]),
 		disable_web_page_preview=True
 	)
 
